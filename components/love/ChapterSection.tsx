@@ -30,7 +30,7 @@ export function ChapterSection({
         aria-hidden
         style={{ y: ghostY }}
         className={cn(
-          "ghost-year pointer-events-none absolute top-10 z-0 font-serif text-[38vw] leading-none font-semibold select-none md:text-[24vw]",
+          "ghost-year pointer-events-none absolute top-56 z-0 font-serif text-[26vw] leading-none font-semibold opacity-60 select-none md:top-10 md:text-[24vw] md:opacity-100",
           even ? "-right-6 md:right-0" : "-left-6 md:left-0",
         )}
       >
