@@ -47,8 +47,9 @@ export function ChapterSection({
           even ? "text-left" : "text-left md:text-right",
         )}
       >
-        <p className="text-[11px] tracking-[0.5em] text-gold uppercase">
-          chapter {chapter.numeral} &middot; {chapter.years}
+        <p className="text-[11px] font-semibold tracking-[0.5em] text-gold-deep uppercase">
+          chapter {chapter.numeral}
+          {chapter.years && <> &middot; {chapter.years}</>}
         </p>
         <h2 className="mt-4 font-serif text-5xl leading-none font-medium text-ink italic md:text-8xl">
           {chapter.title}

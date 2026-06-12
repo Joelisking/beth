@@ -16,7 +16,7 @@ export function LoveList() {
         transition={{ duration: 1 }}
         className="mb-16 text-center"
       >
-        <p className="text-[11px] tracking-[0.5em] text-gold uppercase">
+        <p className="text-[11px] font-semibold tracking-[0.5em] text-gold-deep uppercase">
           an incomplete inventory
         </p>
         <h2 className="mt-4 font-serif text-4xl font-medium text-ink italic md:text-6xl">

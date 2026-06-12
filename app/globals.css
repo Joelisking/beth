@@ -11,6 +11,7 @@
   --color-wine: var(--wine);
   --color-wine-deep: var(--wine-deep);
   --color-gold: var(--gold);
+  --color-gold-deep: var(--gold-deep);
   --color-blush: var(--blush);
   --color-cream: var(--cream);
 }
@@ -19,10 +20,11 @@
   --paper: #f5efe3;
   --paper-deep: #ece3d0;
   --ink: #2b1d17;
-  --ink-soft: #6d5c4f;
+  --ink-soft: #594a3d;
   --wine: #6e2230;
   --wine-deep: #471019;
   --gold: #a8824f;
+  --gold-deep: #7d5b2d;
   --blush: #c98d83;
   --cream: #faf6ec;
 }
