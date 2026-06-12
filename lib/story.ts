@@ -416,7 +416,7 @@ export const CHAPTERS: Chapter[] = [
         drift: 26,
       },
       {
-        id: "IMG_1786",
+        id: "IMG_8047",
         kind: "photo",
         frame: "polaroid",
         aspect: "3/4",

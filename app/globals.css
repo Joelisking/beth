@@ -32,10 +32,14 @@ html {
   font-family: var(--font-serif);
 }
 
+html,
+body {
+  overflow-x: clip;
+}
+
 body {
   background: var(--paper);
   color: var(--ink);
-  overflow-x: hidden;
 }
 
 ::selection {

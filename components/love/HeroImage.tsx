@@ -39,7 +39,7 @@ export function HeroImage() {
             style={{ scale }}
             className="h-full w-full object-cover"
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-wine-deep/70 via-transparent to-transparent" />
+          <div className="absolute inset-x-0 bottom-0 h-[55%] bg-gradient-to-t from-wine-deep/90 via-wine-deep/35 to-transparent" />
         </motion.div>
 
         <motion.div

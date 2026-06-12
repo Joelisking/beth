@@ -61,8 +61,8 @@ export function MediaFigure({ media }: { media: Media }) {
         {isPolaroid ? (
           <div className="bg-cream p-3 pb-4 shadow-[0_30px_70px_-30px_rgba(43,29,23,0.5)]">
             {inner}
-            <div className="flex items-baseline justify-between gap-3 pt-3">
-              <span className="font-script text-xl leading-none text-wine">
+            <div className="flex flex-col gap-1.5 pt-3">
+              <span className="font-script text-2xl leading-tight text-wine">
                 {media.caption}
               </span>
               <span className="text-[10px] tracking-[0.25em] text-ink-soft uppercase">

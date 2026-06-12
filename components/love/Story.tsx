@@ -1,6 +1,5 @@
 "use client"
 
-import { useEffect, useState } from "react"
 import { motion, useScroll } from "motion/react"
 
 import { CHAPTERS, HER_NAME } from "@/lib/story"
@@ -16,20 +15,9 @@ import { Vow } from "./Vow"
 export function Story() {
   const { scrollYProgress } = useScroll()
 
-  // dev-only: jump to a section via NEXT_PUBLIC_PEEK=<vh-multiple> in .env.local
-  const [peek] = useState<number | null>(() => {
-    const v = process.env.NEXT_PUBLIC_PEEK
-    return v ? parseFloat(v) : null
-  })
-  useEffect(() => {
-    if (peek != null)
-      window.scrollTo({ top: peek * window.innerHeight, behavior: "instant" })
-  }, [peek])
-
   return (
     <main className="relative">
       {/* opening veil */}
-      {peek === null && (
       <motion.div
         initial={{ y: 0 }}
         animate={{ y: "-100%" }}
@@ -45,7 +33,6 @@ export function Story() {
           for {HER_NAME}
         </motion.p>
       </motion.div>
-      )}
 
       {/* reading progress */}
       <motion.div
