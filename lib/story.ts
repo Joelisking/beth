@@ -37,9 +37,10 @@ export type Chapter = {
 
 export const LETTER_WORDS = (
   "My Beth, I have started this a hundred different ways, and every " +
-  "single one began with you. I know the weight between us right now is " +
-  "mine. I put it there, and I won't pretend otherwise. But underneath " +
-  "everything I got wrong sits the one thing I have never gotten wrong:"
+  "single one began with you. Somewhere between the first photograph " +
+  "and the last, you became the place my whole life points toward. So " +
+  "before the pictures, before the memories, before anything else, here " +
+  "is the one sentence I have never had to rewrite:"
 ).split(" ")
 
 export const LETTER_CLOSE = "I love you."
@@ -55,9 +56,9 @@ export const LOVE_LIST = [
 ]
 
 export const VOW_LINES = [
-  "I am not asking you to forget what hurt you.",
-  "I am asking you to remember what built us.",
-  "The mistakes were mine. The foolishness was mine. But so is the lesson, and so is the man who is done learning it the hard way.",
+  "There is a version of my life without you in it, and I have no interest in ever meeting it.",
+  "You are the first thing I want to tell about my day, and the last thing I think about before it ends.",
+  "Loving you is the easiest thing I have ever done, and the one thing I intend to do best.",
   "Every photograph here is a promise I already made, and intend to keep making: to choose you on the bright days, the heavy days, and every ordinary Tuesday in between.",
 ]
 
@@ -347,7 +348,7 @@ export const CHAPTERS: Chapter[] = [
         aspect: "3/4",
         date: "november 2025",
         caption:
-          "On this day I made a promise to you, and I hope you give me the chance to fulfill it",
+          "on this day I made you a promise, and I intend to keep every word of it",
         cls: "md:col-span-4 md:col-start-6 md:mt-20",
         drift: -16,
       },
@@ -417,7 +418,7 @@ export const CHAPTERS: Chapter[] = [
         frame: "polaroid",
         aspect: "3/4",
         date: "march 2026",
-        caption: "a kiss I hope I can give you a million more of",
+        caption: "one kiss down, a million more to go",
         cls: "md:col-span-4 md:col-start-7 md:mt-36",
         tilt: -2,
         drift: -20,

@@ -1,6 +1,6 @@
 "use client"
 
-const ROW_A = "Please forgive me Bethany"
+const ROW_A = "My whole heart, Bethany"
 const ROW_B = "I can't imagine my life without you in it"
 
 function Track({ text, dir }: { text: string; dir: "left" | "right" }) {
@@ -40,7 +40,7 @@ function Track({ text, dir }: { text: string; dir: "left" | "right" }) {
 export function Interlude() {
   return (
     <section
-      aria-label="and still, I choose you"
+      aria-label="I choose you"
       className="relative my-24 scale-[1.03] -rotate-2 bg-wine py-16 shadow-[0_40px_80px_-40px_rgba(71,16,25,0.6)] md:py-20"
     >
       <div className="flex flex-col gap-6">

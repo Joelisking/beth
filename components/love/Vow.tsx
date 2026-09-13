@@ -43,7 +43,7 @@ export function Vow() {
           transition={{ duration: 1.4, delay: 0.3 }}
           className="mt-16 font-script text-4xl text-wine md:text-5xl"
         >
-          I&rsquo;m not going anywhere.
+          It was always you.
         </motion.p>
       </div>
     </section>
